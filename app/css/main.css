@@ -1,0 +1,80 @@
+body {
+  background: url("../img/background-fone.jpg") no-repeat;
+  padding-top: 30px;
+}
+.aside {
+  height: 400px;
+}
+.main {
+  height: 400px;
+}
+.d-flex {
+  display: flex;
+}
+.task-title {
+  font-weight: 400;
+  padding-top: 5px;
+}
+.gray {
+  color: #BDBDBD;
+}
+.task-title--done {
+  text-decoration: line-through;
+  color: #CDCDCD;
+}
+.task-item__buttons button {
+  margin-right: 5px;
+  float: left;
+}
+.task-item__buttons button:last-child {
+  margin-right: 0px;
+}
+.notify-holder {
+  height: 60px;
+  margin-bottom: 20px;
+}
+.empty-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.empty-list__title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+.empty-list__icon {
+  color: #42BE2A;
+  font-size: 32px;
+}
+
+.page-head {
+    color: white;
+	text-align: center;
+}
+
+.tasker {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 7px -7px 0px 0px rgba(0, 124, 50, 0.23);
+    -moz-box-shadow:    7px -7px 0px 0px rgba(0, 124, 50, 0.23);
+    box-shadow: 7px -7px 0px 0px rgba(0, 124, 50, 0.23);
+}
+
+.display-4 {
+    margin-top: -80px;
+}
+
+.btn-primary:hover {
+-webkit-box-shadow: 4px -3px 0px 1px rgba(0, 0, 255, 0.29);
+-moz-box-shadow:    4px -3px 0px 1px rgba(0, 0, 255, 0.29);
+box-shadow:         4px -3px 0px 1px rgba(0, 0, 255, 0.29);
+}
+
+.list-group {
+    -webkit-box-shadow: 7px -7px 0px 0px rgba(0, 124, 50, 0.23);
+    -moz-box-shadow:    7px -7px 0px 0px rgba(0, 124, 50, 0.23);
+    box-shadow: 7px -7px 0px 0px rgba(0, 124, 50, 0.23);
+}
